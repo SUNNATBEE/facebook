@@ -1,0 +1,141 @@
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    display: swap;
+    src: 
+    url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url("../fonts/roboto-v30-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+img{
+    display: block;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    font-family: "Roboto" , "Arial" , sans-serif;
+    font-weight: 400;
+    background-color: #f2f2f2;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+.site-main{
+    flex-grow: 1;
+}
+
+.hero-section {
+    padding-top: 150px;
+}
+
+.hero-section__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.hero-section__textbox {
+    width: 350px;
+    margin-right: 150px;
+}
+.hero-section__title {
+    font-size: 70px;
+    line-height: 55px;
+    letter-spacing: -0.520833px;
+    color: #1877f2;
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+.hero-section__text {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: -0.520833px;
+    color: #000000;
+}
+.form__wrapper{
+    text-align: center;
+}
+.forms {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow:  0 0 10px 0.2px #d6d6d6;
+    margin-bottom: 35px;
+    
+}
+.btn {
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    display: block;
+    border: none;
+    padding: 15px;
+    background-color: #1877f2;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.input__phone{
+    width: 100%;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #f2f2f2;
+}
+.input__password{
+    width: 100%;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #f2f2f2;
+}
+.link{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.520833px;
+    color: #1877f2;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 20px;
+
+}
+.account{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    color: #fff;
+    border: none;
+    background-color: #42b72a;
+    border-radius: 5px;
+}
